@@ -1,4 +1,4 @@
-<h2>Bookmarks submitted by <%= link_to @user.username, profile_path(@user) %></h2>
+<h2>Zakładki udostepnione przez <%= link_to @user.username, profile_path(@user) %></h2>
 
 <table style="width: 100%">
   <thead>
@@ -20,4 +20,4 @@
 
 <%= paginate @bookmarks %>
 
-<%= link_to 'Back', profiles_path %>
+<%= link_to 'Cofnij', profiles_path %>

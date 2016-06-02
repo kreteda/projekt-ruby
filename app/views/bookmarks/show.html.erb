@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>Tytuł:</strong>
   <%= @bookmark.title %>
 </p>
 
 <p>
-  <strong>Url:</strong>
+  <strong>Adres URL:</strong>
   <%= @bookmark.url %>
 </p>
 
 <p>
-  <strong>User:</strong>
+  <strong>Użytkownik:</strong>
   <%= @bookmark.user_id %>
 </p>
 
-<%= link_to 'Edit', edit_bookmark_path(@bookmark) %> |
-<%= link_to 'Back', bookmarks_path %>
+<%= link_to 'Edytuj', edit_bookmark_path(@bookmark) %> |
+<%= link_to 'Cofnij', bookmarks_path %>

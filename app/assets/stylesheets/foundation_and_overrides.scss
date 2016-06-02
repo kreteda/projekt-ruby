@@ -532,10 +532,10 @@ $default-float: left;
 
 // Background colors for parts of Clearing.
 
-// $clearing-bg: #111;
-// $clearing-caption-bg: $clearing-bg;
-// $clearing-carousel-bg: #111;
-// $clearing-img-bg: $clearing-bg;
+ $clearing-bg: #1E3A79;
+ $clearing-caption-bg: $clearing-bg;
+ $clearing-carousel-bg: #1E3A79;
+ $clearing-img-bg: $clearing-bg;
 
 // Close button
 
@@ -1203,7 +1203,7 @@ $default-float: left;
 
 // Background color for the top bar
 
-// $topbar-bg: #111 !default;
+ $topbar-bg: #1E3A79 !default;
 
 // Height and margin
 
@@ -1212,7 +1212,7 @@ $default-float: left;
 
 // Control Input height for top bar
 
-// $topbar-input-height: 2.45em;
+ $topbar-input-height: 1em;
 
 // Controlling the styles for the title in the top bar
 
