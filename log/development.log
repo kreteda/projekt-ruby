@@ -1,0 +1,554 @@
+
+
+Started GET "/" for 89.66.174.30 at 2016-06-02 21:06:25 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0.rc2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/callbacks.rb:373:in `_run__3958895266904218937__call__callbacks'
+  activesupport (4.0.0.rc2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (95.5ms)
+
+
+Started GET "/" for 89.66.174.30 at 2016-06-02 21:06:27 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0.rc2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/callbacks.rb:373:in `_run__3958895266904218937__call__callbacks'
+  activesupport (4.0.0.rc2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (77.1ms)
+  [1m[36m (18.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (18.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20130612160324)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20130612160324)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36m (18.6ms)[0m  [1mCREATE TABLE "bookmarks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "url" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (10.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(128) DEFAULT '' NOT NULL, "remember_created_at" datetime, "created_at" datetime, "updated_at" datetime, "username" varchar(255)) 
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (8.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_username" ON "users" ("username")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130613152218')
+  [1m[36m (10.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130612165719')[0m
+  [1m[35m (10.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130612160324')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 89.66.174.30 at 2016-06-02 21:11:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3609ms (Views: 3577.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/bookmarks.css?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/profiles.css?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/site.css?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/foundation/index.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/bookmarks.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/profiles.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/site.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 89.66.174.30 at 2016-06-02 21:11:27 +0000
+
+
+Started GET "/users/sign_up" for 89.66.174.30 at 2016-06-02 21:11:32 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (222.9ms)
+Completed 200 OK in 280ms (Views: 273.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 89.66.174.30 at 2016-06-02 21:11:36 +0000
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (27.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (23.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (17.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20130612160324)
+  [1m[35m (17.7ms)[0m  BEGIN
+  [1m[36m (17.8ms)[0m  [1mROLLBACK[0m
+  [1m[36m (27.2ms)[0m  [1mCREATE TABLE "bookmarks" ("id" serial primary key, "title" character varying(255), "url" character varying(255), "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (23.6ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(128) DEFAULT '' NOT NULL, "remember_created_at" timestamp, "created_at" timestamp, "updated_at" timestamp, "username" character varying(255)) 
+  [1m[36m (20.6ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (19.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_username" ON "users" ("username")
+  [1m[36m (16.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (16.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130613152218')
+  [1m[36m (17.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130612165719')[0m
+  [1m[35m (16.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130612160324')
+  [1m[36mActiveRecord::SchemaMigration Load (17.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (18.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 89.66.174.30 at 2016-06-02 21:49:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (16.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 259ms (Views: 232.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/site.css?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/profiles.css?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/bookmarks.css?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/foundation/index.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/bookmarks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/profiles.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/site.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:22 +0000
+
+
+Started GET "/users/sign_up" for 89.66.174.30 at 2016-06-02 21:49:25 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (12.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (254.7ms)
+Completed 200 OK in 354ms (Views: 298.7ms | ActiveRecord: 50.4ms)
+
+
+Started GET "/users/sign_up" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/foundation/index.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/profiles.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/bookmarks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/site.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:26 +0000
+
+
+Started GET "/users/sign_up" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/foundation/index.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/bookmarks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/profiles.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/assets/site.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:29 +0000
+
+
+Started GET "/users/sign_up" for 89.66.174.30 at 2016-06-02 21:49:31 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/foundation/index.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/bookmarks.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/profiles.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/site.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 89.66.174.30 at 2016-06-02 21:49:32 +0000
