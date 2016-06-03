@@ -1,5 +1,5 @@
 Wersja Ruby : 2.3.0p0
-Wersja Rails : 4.0.0.rc2
+Wersja Rails : 5.0.0.0
 Baza danych : Postgresql
 
 https://bookmarks2-kreteda.c9users.io
