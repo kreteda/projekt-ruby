@@ -1,6 +1,7 @@
-|Wersja Ruby|Wersja Rails|Baza danych|
-|---|---|---|
-|2.3.0p0|4.0.0.rc2|Postgresql|
+Wersja Ruby : 2.3.0p0
+Wersja Rails : 4.0.0.rc2
+Baza danych : Postgresql
+
 
 [Link](https://bookmarks2-kreteda.c9users.io//)
 
